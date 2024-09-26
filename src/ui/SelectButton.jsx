@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
-function SelectButton({ children, isCorrect }) {
+function SelectButton({ children, isCorrect, onClick }) {
   return (
     <button
+      onClick={onClick}
       className={`hover:bg-pink-500 hover:text-white hover:border-pink-500 w-[80%] rounded-md block m-auto px-4 py-3 ${
         isCorrect
           ? "bg-pink-500 text-white"

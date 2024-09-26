@@ -1,3 +1,4 @@
+import CallToActionButton from "../ui/CallToActionButton";
 import HeroTitle from "../ui/HeroTitle";
 import Text from "../ui/Text";
 import Container from "./Container";
@@ -40,6 +41,7 @@ function News() {
         (This major metabolic breakthrough has already helped thousands of women
         get the body of thei dreams... and you could be next.)
       </Text>
+      <CallToActionButton> Watch Presentation Now</CallToActionButton>
     </Container>
   );
 }
