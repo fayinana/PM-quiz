@@ -1,9 +1,13 @@
-import SectionWithImage from "./components/SectionWithImage";
+import Banner from "./screen/Banner";
+import NewsPage from "./screen/NewsPage";
+import QuestionPage from "./screen/QuestionPage";
 
 function App() {
   return (
     <>
-      <SectionWithImage />
+      <Banner />
+      <QuestionPage />
+      <NewsPage />
     </>
   );
 }
