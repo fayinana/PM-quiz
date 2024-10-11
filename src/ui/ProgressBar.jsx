@@ -6,7 +6,7 @@ const ProgressBar = ({ progress }) => {
         className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white flex items-center justify-center rounded-md transition-all duration-300 my-6 "
         style={{ width: `${progress}%`, height: "20px" }}
       >
-        {progress}%
+        {!progress ? "" : `${progress}%`}
       </div>
     </div>
   );
